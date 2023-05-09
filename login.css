@@ -22,6 +22,7 @@ section {
     position: relative;
     width: 400px;
     height: 450px;
+    bottom: 20px;
     border: 2px solid white;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -134,4 +135,17 @@ input[type="submit"] {
 }
 .register p a:hover{
     text-decoration: underline;
+}
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.social-container a {
+    color: white;
+    font-size: 20px;
+}
+.social-container a:hover {
+    color:rgb(201, 76, 4);
+
 }

@@ -7,6 +7,6 @@ function valForm() {
         alert("Please enter your email and password.");
         return false;
     } else{
-        alert("Submit Successful!")
+        alert("your email is " + email + "your password is " + password)
     }
 }
